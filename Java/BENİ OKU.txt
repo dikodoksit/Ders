@@ -1,0 +1,3 @@
+Derslerdeki sınıf isimleri, video serisindeki sınıf isimleriyle aynıdır. Bu sebep ile, sınıf isminiz farklı ise kodları çalıştırmadan önce ona göre düzenlemeniz gerekmektedir.
+
+Dersleri hazırlayan: Fatih Çakmak // dikodoksit(youtube)

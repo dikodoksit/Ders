@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+	<head>
+		<meta charset="utf-8">
+		<title> Ders 4 </title>
+	</head>
+	<body style="background-color:#eee">
+		<h1 align="center"> Ders 4 </h1><br>
+		
+		<!--
+		<img> elementine eklenen alt niteliği, resim yüklenemediğinde kullanıcıya alternatif yazı göstermeye yarar.
+		-->
+		
+		<img src="imaj.jpg" alt="Alternatif yazı">
+		<!--
+		<q> elementi, kısa alıntıları belli eder.
+		-->
+		<p> Sheakspeare demiş ki <q> Olmak ya da olmamak, işte bütün mesele bu </q></p>
+		
+		<!--
+		<cite> elementi, yazıdaki önemli kısmı belirtir ve aşağıdaki gibi kullanılır.
+		-->
+		
+		<p> <cite>Sheakspeare</cite> demiş ki <q> Olmak ya da olmamak, işte bütün mesele bu </q></p>
+		
+		<!--
+		<blockquote> elementi daha uzun alıntılar için kullanılır.
+		cite niteliği, alıntı elementine eklenir ve alıntı yapılan kaynağı belirler. 
+		-->
+		<p> Türkiye büyük millet meclisi ile ilgili paragraf
+		<blockquote cite="https://tr.wikipedia.org/wiki/T%C3%BCrkiye_B%C3%BCy%C3%BCk_Millet_Meclisi">Türkiye Büyük Millet Meclisi (kısaca TBMM), 23 Nisan 1920'de Osmanlı Devleti'nin İtilaf Devletleri'nce işgali sırasında direniş gösteren Türk Milletinin oluşturduğu irade ile kurulan, (asli kurucu iktidar) ve yine bu iradenin sahibi olan Türk Milletinin anayasa ile verdiği yetki ile yasama görevi yapan Türkiye Cumhuriyeti anayasal devlet organıdır. "Egemenlik, kayıtsız şartsız Milletindir" ilkesi Türkiye Büyük Millet Meclisi'nin varoluşunun temel dayanağını oluşturur.</blockquote></p>
+		
+		<!--
+		<pre> elementi, içeriğindeki tüm beyaz bölgeyi okur.
+		-->
+		<pre> bu       bölümdeki
+		beyaz alanlar	ve satır boşlukları
+		okunmakta.</pre>
+		
+		<!--
+		<var> işlemlerde değişkenleri belirtir.
+		-->
+		<p>E = <var>m</var><var>c</var><sup></sup></p>
+		
+		<!--
+		<kbd> elementi, klavye tuşlarını göstermek için kullanılır.
+		-->
+		<p> Windows'da görev yöneticisini açmak için klavyenizdeki <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DEL</kbd> tuşlarına basınız.
+		
+		<!--
+		<samp> elementi, bilgisayar çıktısı anlamına gelir.
+		-->
+		
+		<p> Java'da <code>System.out.println("Hello world!");</code> komutunun çıktısı;<br>
+		<samp> Hello world! </samp>
+		
+		<!--
+		<address> elementi, adres belirlerken kullanılır.
+		-->
+		<address> A mahallesi, B sokağı, C caddesi <br> F apartmanı No: 6 </address>
+		
+		<!--
+		style niteliği, her elementte kullanılabilir ve içerisine CSS dilinden değerler alır.
+		-->
+		<h2 style="color:darkred">Bu yazı koyu kırmızı.</h2>
+		
+		<!--
+		renkler #RGB veya #RRGGBB şeklinde yazılırlar. Elementlerin renklerini tanımlayan niteliklerde değer olarak kullanılırlar. R kırmızı, G yeşil, B mavinin yoğunluğunu belli eder. Yoğunluklar 0 dan F'ye kadar küçükten büyüğe doğru sıralanırlar. Aşağıda bazı renkler verilmiştir.
+		
+		#ff0000 = kırmızı
+		#ffffff = beyaz
+		#000000 = siyah
+		
+		//dikodoksit - Fatih Çakmak
+		-->
+		<p style="color:#fff"> Bu yazı beyaz </p>
+		
+	</body>
+</html>

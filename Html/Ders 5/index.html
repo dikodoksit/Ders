@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr">
+	<head>
+		<title> Ders 5 </title>
+	</head>
+	<body>
+		<h1 align="center" id="baslik"> Ders 5 </h1>
+		
+		<!-- 
+		<abbr> elementi kısaltmaları belirtir, title niteliği ile birlikte kullanılır.
+		-->
+		
+		<p><abbr title="Türkiye Büyük Millet Meclisi">TBMM</abbr>
+		
+		
+		<!-- 
+		<bdo> elementi, dir niteliğini kullanarak yazının yönünü belirtir.
+		-->
+		
+		<p><bdo dir="rtl">Bu yazı sağdan sola doğru yazılı </bdo></p>
+		
+		<!--
+		sayfa içerisinde link vermek için önce id niteliği ile link verilecek element tanımlanır.
+		daha sonrasında <a> elementinin href niteliğine #idadı atanır.
+		aşağıdaki örnek çok yakın oldukları için yönlendirmeyi ekranda tam göstermeyebilir.
+		-->
+		<a href="#burayaLink">Tıkla ve sayfa içerisinde yönlen</a>
+		<p id="burayaLink">yukarıdaki link buraya gelecektir.</p>
+		
+		<!-- 
+		<table> elementi tabloları belirtir ve içerisine aşağıdaki elementleri alır.
+		<caption> elementi tablonun adını belli eder.
+		<th> elementi bölümün başlığını belirtmek için kullanılır ve  table header anlamına gelir.
+		<tr> elementi, satır belli eder ve table row anlamına gelir.
+		<td> elementi, tablodaki verileri belirtir ve table data anlamına gelir.
+		- style niteliğinin içerisine gelen width özelliği, genişliği ifade eder
+		ve piksel ya da yüzde olarak değer alır.
+		
+		- style niteliğinin içerisine gelen font-size özelliği, yazı boyutunu temsil eder
+		ve yüzde ya da piksel olarak değer alır.
+		
+		- style niteliğinin içerisine gelen padding özelliği, önce yanına yön alır ve
+		aldığı değere göre verilen element ile o yönde aralık bırakır.
+		
+		- style niteliği ile iki ya da daha fazla özellik tanımlanacakken, her özelliğin sonuna ';' işareti koyulur.
+		
+		Not: Aşağıdaki örneği sayfanızda göstermek için yorumlar arasından çıkarın.
+		-->
+		
+		<!--
+		<table style="width:100%;">
+			<caption style="font-size:25px; padding-bottom:3%;> Öğrencilerin Not Ortalamaları </caption>
+			<tr>
+				<th>Öğrencinin adı</th>
+				<th>İlk sınav notu</th>
+				<th>Ortalaması</th>
+			</tr>
+			<tr>
+				<td>Fatih Çakmak</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>İkinci Öğrenci</td>
+				<td>100</td>
+				<td>99</td>
+			</tr>
+		</table>
+		-->
+		
+		<!-- 
+		<ul> unordered list, yani sıralanmamış liste anlamına gelir. İçerisine li elementleri
+		ile liste edilecek veriler konulur.
+		
+		<ol> ordered list, yani sıralanmış liste anlamına gelir. İçerisine li elementleri
+		ile liste edilecek veriler konulur.
+		
+		<ul> elementi style niteliği ile özelleştirilebilir. Alabileceği değerler
+		list-style-type:none; list-style-type:disc; list-style-type:square; list-style-type:circle; 
+		
+		<ol> elementi, <ul>'in aksine style kullanmadan, direk olarak type niteliği ile özelleştirilebilir. Alabileceği değerler type="1" type="A" type="a" type="i" type="I"
+		-->
+		
+		<ul style="list-style-type:circle;">
+			<li>Patates</li>
+			<li>Soğan</li>
+			<li>Domates</li>
+		</ul>
+		
+		<ol type="I">
+			<li>Patates</li>
+			<li>Soğan</li>
+			<li>Domates</li>
+		</ol>
+	</body>
+</html>
